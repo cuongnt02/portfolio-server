@@ -7,7 +7,7 @@ RUN npm ci
 
 COPY tsconfig.json ./
 COPY src ./src
-COPY dist/ ./public
+COPY dist-frontend/ ./public
 
 RUN npm run build
 
